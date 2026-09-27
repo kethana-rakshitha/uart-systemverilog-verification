@@ -1,1 +1,113 @@
-
+run -all
+# GENERATOR: Data = d0
+# GENERATOR: Data = e0
+# GENERATOR: Data = ab
+# GENERATOR: Data = 80
+# GENERATOR: Data = 5f
+# GENERATOR: Data = 18
+# GENERATOR: Data = ba
+# GENERATOR: Data = b
+# GENERATOR: Data = 28
+# GENERATOR: Data = 26
+# GENERATOR: Data = 56
+# GENERATOR: Data = 16
+# GENERATOR: Data = 3e
+# GENERATOR: Data = 72
+# GENERATOR: Data = 44
+# GENERATOR: Data = 4c
+# GENERATOR: Data = c6
+# GENERATOR: Data = f
+# GENERATOR: Data = 3b
+# GENERATOR: Data = 4a
+# EXPECTED: Data = d0 Queue_Size = 1
+# EXPECTED: Data = e0 Queue_Size = 2
+# EXPECTED: Data = ab Queue_Size = 3
+# EXPECTED: Data = 80 Queue_Size = 4
+# EXPECTED: Data = 5f Queue_Size = 5
+# EXPECTED: Data = 18 Queue_Size = 6
+# EXPECTED: Data = ba Queue_Size = 7
+# EXPECTED: Data = b Queue_Size = 8
+# EXPECTED: Data = 28 Queue_Size = 9
+# EXPECTED: Data = 26 Queue_Size = 10
+# EXPECTED: Data = 56 Queue_Size = 11
+# EXPECTED: Data = 16 Queue_Size = 12
+# EXPECTED: Data = 3e Queue_Size = 13
+# EXPECTED: Data = 72 Queue_Size = 14
+# EXPECTED: Data = 44 Queue_Size = 15
+# EXPECTED: Data = 4c Queue_Size = 16
+# EXPECTED: Data = c6 Queue_Size = 17
+# EXPECTED: Data = f Queue_Size = 18
+# EXPECTED: Data = 3b Queue_Size = 19
+# EXPECTED: Data = 4a Queue_Size = 20
+# MONITOR: Received Data = d0
+# UART PASS: Expected=d0 Actual=d0
+# DRIVER: Transmission completed for Data = d0
+# MONITOR: Received Data = e0
+# UART PASS: Expected=e0 Actual=e0
+# DRIVER: Transmission completed for Data = e0
+# MONITOR: Received Data = ab
+# UART PASS: Expected=ab Actual=ab
+# DRIVER: Transmission completed for Data = ab
+# MONITOR: Received Data = 80
+# UART PASS: Expected=80 Actual=80
+# DRIVER: Transmission completed for Data = 80
+# MONITOR: Received Data = 5f
+# UART PASS: Expected=5f Actual=5f
+# DRIVER: Transmission completed for Data = 5f
+# MONITOR: Received Data = 18
+# UART PASS: Expected=18 Actual=18
+# DRIVER: Transmission completed for Data = 18
+# MONITOR: Received Data = ba
+# UART PASS: Expected=ba Actual=ba
+# DRIVER: Transmission completed for Data = ba
+# MONITOR: Received Data = b
+# UART PASS: Expected=b Actual=b
+# DRIVER: Transmission completed for Data = b
+# MONITOR: Received Data = 28
+# UART PASS: Expected=28 Actual=28
+# DRIVER: Transmission completed for Data = 28
+# MONITOR: Received Data = 26
+# UART PASS: Expected=26 Actual=26
+# DRIVER: Transmission completed for Data = 26
+# MONITOR: Received Data = 56
+# UART PASS: Expected=56 Actual=56
+# DRIVER: Transmission completed for Data = 56
+# MONITOR: Received Data = 16
+# UART PASS: Expected=16 Actual=16
+# DRIVER: Transmission completed for Data = 16
+# MONITOR: Received Data = 3e
+# UART PASS: Expected=3e Actual=3e
+# DRIVER: Transmission completed for Data = 3e
+# MONITOR: Received Data = 72
+# UART PASS: Expected=72 Actual=72
+# DRIVER: Transmission completed for Data = 72
+# MONITOR: Received Data = 44
+# UART PASS: Expected=44 Actual=44
+# DRIVER: Transmission completed for Data = 44
+# MONITOR: Received Data = 4c
+# UART PASS: Expected=4c Actual=4c
+# DRIVER: Transmission completed for Data = 4c
+# MONITOR: Received Data = c6
+# UART PASS: Expected=c6 Actual=c6
+# DRIVER: Transmission completed for Data = c6
+# MONITOR: Received Data = f
+# UART PASS: Expected=f Actual=f
+# DRIVER: Transmission completed for Data = f
+# MONITOR: Received Data = 3b
+# UART PASS: Expected=3b Actual=3b
+# DRIVER: Transmission completed for Data = 3b
+# MONITOR: Received Data = 4a
+# UART PASS: Expected=4a Actual=4a
+# 
+# ========================================
+#        UART SCOREBOARD SUMMARY
+# ========================================
+# Transactions : 20
+# PASS         : 20
+# FAIL         : 0
+# Remaining    : 0
+# ========================================
+# ** Note: $finish    : tb/uart_test.sv(141)
+#    Time: 32355 ns  Iteration: 0  Instance: /uart_test
+# 1
+# Break in Module uart_test at tb/uart_test.sv line 141
